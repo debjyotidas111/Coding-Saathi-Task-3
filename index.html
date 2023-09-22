@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>TEMPERATURE CONVERTER made by Debjyoti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrap-con">
+            <div class="img-con">
+                <img src="./images/8301048.jpg">
+            </div>
+            <div class="r-form-con">
+                <div class="from-box">
+                    <h1>TEMPERATURE <span style="color:#f2f2f2;">CONVERTER</span></h1>
+                    <input type="number" id="type-field" value="" placeholder="Enter Degrees to "><br>
+
+                    <select name="temp" id="temp" vale="temp">
+                        <option id="Far-opt-btn" value="Farinhite">Farinhite = ? °C </option>
+                        <option id="cel-opt-btn" value="Celsius">Celsius = ? °F </option>
+                    </select>
+                    <input type="text" id="result-val" value="2" placeholder="Result" readonly><br>
+                    <!-- <p style="font-size: 15px;">Note:°F = °C * 9/5 + 32</p> -->
+                    <button class="btn" id="conv-btn">Convert</button>
+                    <button class="btn" id="clear-form">Reset</button>
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/debjyoti-das-3b5994107/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://twitter.com/cooldebjyotidas" class="home__social-icon"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://github.com/debjyotidas111" class="home__social-icon"><i
+                                class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
